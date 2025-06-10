@@ -22,7 +22,7 @@ public class AppController {
 
     @GetMapping("/greet")
     public String welcome(){
-        return "Welcome to AWS, Now you are accessing the API from EC2 using Jenkins and Docker";
+        return "Welcome to the cloud environment, Now you are accessing the API from EC2 using Jenkins and Docker";
     }
 
   /*  @PostMapping("/login")
